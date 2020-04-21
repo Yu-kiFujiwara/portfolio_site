@@ -1,0 +1,149 @@
+header {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid black; 
+    text-decoration: none;
+    position: fixed;
+    margin: 0;
+    z-index: 100;
+    background-color: #d6fff3;
+}
+html {
+    scroll-padding-top: 60px;
+}
+.black {
+    color: black;
+}
+header p {
+    font-size: 24px;
+    margin: 5px 10px;
+    z-index: 100;
+    float: left;
+}
+.added {
+    float: right;
+    margin-right: 10px;
+}
+.added li {
+    list-style: none;
+}
+#date {
+    float: left;
+    text-align: right;
+    display: flex;
+}
+.background_title {
+    width: 100%;
+    height: 650px;
+    padding: 250px 280px 300px;
+    background-image: url("../img/title_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+.bg_title {
+    font-size: 45px;
+    color: white;
+}
+.bg_wrapper {
+    margin-top: 140px;
+    font-size: 25px;
+    color: white;
+}
+.white {
+    color: white;
+}
+.title_hr {
+    width: 450px;
+    text-align: center;
+    border-color: black;
+} 
+.title {
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin: 40px auto 30px auto;
+}
+.career {
+    width: 100%;
+    float: none;
+}
+.my_photo {
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+ul li {
+    padding: 3px 0; 
+}
+.career_text {
+    padding: 30px 0 90px 40px;
+    font-size: 18px;
+}
+.link {
+    margin-left: 50px;
+}
+.icon {
+    text-align: center;
+}
+.fas.fa-fire.fa-3x {
+    color: red;
+}
+.skillset {
+    float: none;
+}
+.ul_skill {
+    margin: 40px 0;
+    font-size: 17px;
+    text-align: left;
+}
+.portfolio {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+.portfolio_wrapper {
+    margin: 50px 0 70px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.portfolio_wrapper img {
+    width: 320px;
+    height: 220px;
+    border: solid 1px black;
+}
+.portfolio_wrapper img:hover {
+    opacity: 0.3;
+    transition: .5s;
+}
+.portfolio_wrapper p {
+    font-size: 24px;
+}
+
+
+.button_wrapper {
+    text-align: center;
+}
+button.btn.btn-default {
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 3px;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, .2);
+}
+button.btn.btn-default:hover {
+    color: blue;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, .2);
+}
+footer {
+    width: 100%;
+    height: 70px;
+    margin-top: 40px;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    background-color: black;
+}
