@@ -103,6 +103,12 @@ ul li {
     height: 500px;
     margin-bottom: 50px;
 }
+@media screen and (max-width : 1000px) {
+    /* スマートフォンだけ以下を適用 */
+    .portfolio { 
+        height: 1100px;
+        }
+}
 .portfolio_wrapper {
     margin: 50px 0 70px;
     font-size: 18px;
